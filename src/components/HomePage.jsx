@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './HomePage.css';
-
+                       
 const HomePage = () => {
-  return (
+  return (  
     <div className="home-page">
       <header className="header">
         <nav className="navbar">
@@ -13,9 +13,8 @@ const HomePage = () => {
 
       <section className="main-content">
         <h1 className="title">Welcome to the Discussion Forum</h1>
-        <p className="description">
-          This allows you to have discussion and interact with other with similar field of interest and clarify your doubts...
-        </p>
+        
+        <p className="description">Read, reply, and engage in dynamic discussions with users worldwide.</p>
 
         <div className="action-buttons">
           <Link to="/login" className="btn btn-primary">Login</Link>
